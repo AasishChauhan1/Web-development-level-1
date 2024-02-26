@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #A6A1A6;
+}
+#main{
+    height: 90%;
+    width: 85%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 14px 40px;
+
+}
+.nav-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}.nav-second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-first>h4{
+   
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 3px 9px;
+}
+.nav-first>h5{
+       
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 3px 9px;
+}
+.nav-second>h4{
+   
+    border: 1px solid black;
+    background-color: red;
+    font-size: 12px;
+    border-radius: 12px;
+    padding: 3px 5px;
+    
+}
+.nav-second>h3{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 4px;
+    font-weight: 100;
+}
+#signup{
+    border: none;
+    background-color: rgb(230, 72, 15);
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 3px 9px;
+}
+.nav-third>h4{ 
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 3px 9px;
+        margin-right: 3px;
+}
+.content>h1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 120px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 560;
+    text-align: center;
+
+}
+img{
+    height: 380px;
+    width: 280px;
+    border-radius: 18px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-40deg) ;
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-30deg) ;
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-20deg) ;
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(-10deg) ;
+}
+.btm-left{
+    position: absolute;
+    bottom: 6%;
+    left: 4%;
+    font-size: 15px;
+}
+.btm-left>h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+}
+.btm-right{
+    position: absolute;
+    bottom: 6%;
+    right: 4%;
+}
+.icons{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.icons>i{
+    font-size: 25px;
+}
+.textContent>h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
